@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="chosen.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="chosen.jquery.min.js"></script>
+</head>
+<body>
+    <form action="">
+        <select name="" id="mselect" multiple="" style="width:200px;">
+            <option value="">lundi</option>
+            <option value="">mardi</option>
+            <option value="">mercredi</option>
+            <option value="">jeudi</option>
+            <option value="">vendredi</option>
+            <option value="">samedi</option>
+            <option value="">dimanche</option>
+        </select>
+    </form>
+
+    <script>
+		$(document).ready(function(){
+
+			$('#mselect').chosen();
+
+		});
+	</script>
+
+</body>
+</html>
